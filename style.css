@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700&family=Fugaz+One&family=Lato:wght@700&family=Nunito&family=Open+Sans:ital,wght@1,300&family=Patua+One&family=Poppins&family=Roboto&family=Source+Sans+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(245, 211, 217);
+    /* background-color: rgb(20, 20, 61); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+}
+
+.bg-img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0,0.2),5px 5px 30px rgba(0, 0, 0,0.2),5px 5px 30px rgba(0, 0, 0,0.2);
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: url(423-image.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.quote {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    
+}
+h1 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+h2 {
+    font-size: 2rem;
+    padding: 10px;
+}
+
